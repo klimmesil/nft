@@ -33,7 +33,7 @@ for token_id in range(NFTCOUNT):
     # generate metadata
     metadata = metadata_generator.generate(token_id, israre, isblue)
 
-    file = open(f"./numbers/metadatas/numft_{token_id}", "w")
+    file = open(f"./numbers/metadatas/numft_{token_id}.js", "w")
 
     print(metadata, file = file)
 
